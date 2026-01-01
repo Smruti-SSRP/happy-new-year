@@ -6,56 +6,60 @@
   <style>
     body {
       margin: 0;
-      height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: linear-gradient(180deg, #87ceeb, #b0e0ff);
+      min-height: 100vh;
+      background: linear-gradient(180deg, #87ceeb, #cfefff);
       font-family: Arial, sans-serif;
       text-align: center;
-      overflow: hidden;
+      padding: 30px 10px;
     }
-    .card {
-      background: rgba(255, 255, 255, 0.9);
-      padding: 25px;
-      border-radius: 15px;
-      max-width: 90%;
-    }
+
     h1 {
-      font-size: 2.4em;
+      font-size: 2.2em;
       margin-bottom: 10px;
     }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      max-width: 400px;
+      margin: 20px auto;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
     p {
-      font-size: 1.2em;
-      margin: 6px 0;
+      font-size: 1.1em;
+      margin: 8px 0;
     }
-    .firecracker {
-      position: absolute;
-      width: 120px;
+
+    .fireworks {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+      flex-wrap: wrap;
     }
-    .left {
-      left: 10px;
-      top: 20px;
-    }
-    .right {
-      right: 10px;
-      bottom: 20px;
+
+    .fireworks img {
+      width: 150px;
+      max-width: 45%;
     }
   </style>
 </head>
 <body>
 
-  <img class="firecracker left"
-       src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif">
-  <img class="firecracker right"
-       src="https://media.giphy.com/media/3o6Zt6ML6BklcajjsA/giphy.gif">
+  <h1>🎉 Happy New Year 🎉</h1>
 
   <div class="card">
-    <h1>🎉 Happy New Year 🎉</h1>
-    <p>Dear <strong>Baba❤️</strong> & <strong>Maa🎀</strong>,</p>
+    <p>Dear <strong>Baba❤️ & Maa🎀</strong>,</p>
     <p>May this year bring good health, peace, and happiness to our family.</p>
     <p>With love,</p>
-    <p><strong>Bablu</strong> ❤️</p>
+    <p><strong>Bablu❤️</strong></p>
+  </div>
+
+  <div class="fireworks">
+    <img src="https://media.giphy.com/media/26tOZ42Mg6pbTUPHW/giphy.gif">
+    <img src="https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif">
   </div>
 
 </body>
